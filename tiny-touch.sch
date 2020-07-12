@@ -1,0 +1,252 @@
+EESchema Schematic File Version 4
+LIBS:tiny-touch-cache
+EELAYER 29 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "Tiny Touch"
+Date "2020-07-11"
+Rev "1"
+Comp "cKeys"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L STM32F072VBT6:STM32F072VBT6 IC1
+U 1 1 5F1AB5C4
+P 1150 1750
+F 0 "IC1" H 2550 600 50  0000 L CNN
+F 1 "STM32F072VBT6" H 2350 450 50  0000 L CNN
+F 2 "ckeys:QFP50P1600X1600X160-100N" H 4000 2250 50  0001 L CNN
+F 3 "http://www.st.com/web/en/resource/technical/document/datasheet/DM00090510.pdf" H 4000 2150 50  0001 L CNN
+F 4 "ARM Microcontrollers - MCU 16/32-BITS MICROS" H 4000 2050 50  0001 L CNN "Description"
+F 5 "1.6" H 4000 1950 50  0001 L CNN "Height"
+F 6 "" H 4000 1850 50  0001 L CNN "Mouser2 Part Number"
+F 7 "" H 4000 1750 50  0001 L CNN "Mouser2 Price/Stock"
+F 8 "STMicroelectronics" H 4000 1650 50  0001 L CNN "Manufacturer_Name"
+F 9 "STM32F072VBT6" H 4000 1550 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1150 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:HRO-TYPE-C-31-M-12 USB?
+U 1 1 5F1DF8D9
+P 1600 6900
+F 0 "USB?" H 1433 7697 60  0000 C CNN
+F 1 "HRO-TYPE-C-31-M-12" H 1433 7591 60  0000 C CNN
+F 2 "" H 1600 6900 60  0001 C CNN
+F 3 "" H 1600 6900 60  0001 C CNN
+	1    1600 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Protection:SRV05-4 U?
+U 1 1 5F1EB196
+P 2950 6900
+F 0 "U?" V 2904 7444 50  0000 L CNN
+F 1 "SRV05-4" V 2995 7444 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3650 6450 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF" H 2950 6900 50  0001 C CNN
+	1    2950 6900
+	0    1    1    0   
+$EndComp
+$Comp
+L Regulator_Linear:MCP1700-3002E_SOT23 U?
+U 1 1 5F1FAE10
+P 5850 1300
+F 0 "U?" H 5850 1542 50  0000 C CNN
+F 1 "MCP1700-3002E_SOT23" H 5850 1451 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5850 1525 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf" H 5850 1300 50  0001 C CNN
+	1    5850 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad P?
+U 1 1 5F25FB38
+P 6850 5250
+F 0 "P?" H 6800 5350 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6850 5350 50  0001 C CNN
+F 2 "" H 6850 5250 50  0001 C CNN
+F 3 "" H 6850 5250 50  0001 C CNN
+	1    6850 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 5F2613A8
+P 6550 4800
+F 0 "H?" H 6650 4849 50  0000 L CNN
+F 1 "Pointer_Clip" H 6650 4758 50  0000 L CNN
+F 2 "" H 6550 4800 50  0001 C CNN
+F 3 "~" H 6550 4800 50  0001 C CNN
+	1    6550 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 1150 3050 0    50   Input ~ 0
+NRST
+Text GLabel 4150 2250 2    50   Input ~ 0
+D-
+Text GLabel 4150 2150 2    50   Input ~ 0
+D+
+$Comp
+L power:GND #PWR?
+U 1 1 5F26438B
+P 1150 3650
+F 0 "#PWR?" H 1150 3400 50  0001 C CNN
+F 1 "GND" V 1155 3522 50  0000 R CNN
+F 2 "" H 1150 3650 50  0001 C CNN
+F 3 "" H 1150 3650 50  0001 C CNN
+	1    1150 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F264E7E
+P 1550 4850
+F 0 "#PWR?" H 1550 4600 50  0001 C CNN
+F 1 "GND" V 1550 4650 50  0000 C CNN
+F 2 "" H 1550 4850 50  0001 C CNN
+F 3 "" H 1550 4850 50  0001 C CNN
+	1    1550 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F265FFB
+P 3750 4850
+F 0 "#PWR?" H 3750 4600 50  0001 C CNN
+F 1 "GND" V 3750 4650 50  0000 C CNN
+F 2 "" H 3750 4850 50  0001 C CNN
+F 3 "" H 3750 4850 50  0001 C CNN
+	1    3750 4850
+	1    0    0    -1  
+$EndComp
+Text GLabel 2050 1050 1    50   Input ~ 0
+BOOTO
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F268968
+P 1450 1050
+F 0 "#PWR?" H 1450 900 50  0001 C CNN
+F 1 "+3V3" V 1450 1250 50  0000 C CNN
+F 2 "" H 1450 1050 50  0001 C CNN
+F 3 "" H 1450 1050 50  0001 C CNN
+	1    1450 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F269DB2
+P 1550 1050
+F 0 "#PWR?" H 1550 800 50  0001 C CNN
+F 1 "GND" V 1550 850 50  0000 C CNN
+F 2 "" H 1550 1050 50  0001 C CNN
+F 3 "" H 1550 1050 50  0001 C CNN
+	1    1550 1050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F26B82F
+P 1150 2250
+F 0 "#PWR?" H 1150 2100 50  0001 C CNN
+F 1 "+3V3" V 1165 2378 50  0000 L CNN
+F 2 "" H 1150 2250 50  0001 C CNN
+F 3 "" H 1150 2250 50  0001 C CNN
+	1    1150 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F26C6B4
+P 1150 3750
+F 0 "#PWR?" H 1150 3600 50  0001 C CNN
+F 1 "+3V3" V 1165 3878 50  0000 L CNN
+F 2 "" H 1150 3750 50  0001 C CNN
+F 3 "" H 1150 3750 50  0001 C CNN
+	1    1150 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F26707D
+P 4150 1850
+F 0 "#PWR?" H 4150 1600 50  0001 C CNN
+F 1 "GND" V 4150 1750 50  0000 R CNN
+F 2 "" H 4150 1850 50  0001 C CNN
+F 3 "" H 4150 1850 50  0001 C CNN
+	1    4150 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F270520
+P 1650 4850
+F 0 "#PWR?" H 1650 4700 50  0001 C CNN
+F 1 "+3V3" V 1650 5050 50  0000 C CNN
+F 2 "" H 1650 4850 50  0001 C CNN
+F 3 "" H 1650 4850 50  0001 C CNN
+	1    1650 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F271C14
+P 3850 4850
+F 0 "#PWR?" H 3850 4700 50  0001 C CNN
+F 1 "+3V3" V 3850 5050 50  0000 C CNN
+F 2 "" H 3850 4850 50  0001 C CNN
+F 3 "" H 3850 4850 50  0001 C CNN
+	1    3850 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F27234B
+P 4150 1750
+F 0 "#PWR?" H 4150 1600 50  0001 C CNN
+F 1 "+3V3" V 4150 1850 50  0000 L CNN
+F 2 "" H 4150 1750 50  0001 C CNN
+F 3 "" H 4150 1750 50  0001 C CNN
+	1    4150 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L RB060M-60TR:RB060M-60TR D?
+U 1 1 5F2747CB
+P 5550 2400
+F 0 "D?" H 5950 2665 50  0000 C CNN
+F 1 "RB060M-60TR" H 5950 2574 50  0000 C CNN
+F 2 "PMDU" H 6050 2550 50  0001 L CNN
+F 3 "" H 6050 2450 50  0001 L CNN
+F 4 "Schottky Barrier Diode: ROHM\\'s schottky barrier diodes are low VF, low IR and high ESD resistant, suitable for PC,mobile phone and various portable electronics." H 6050 2350 50  0001 L CNN "Description"
+F 5 "" H 6050 2250 50  0001 L CNN "Height"
+F 6 "" H 6050 2150 50  0001 L CNN "Mouser2 Part Number"
+F 7 "" H 6050 2050 50  0001 L CNN "Mouser2 Price/Stock"
+F 8 "ROHM Semiconductor" H 6050 1950 50  0001 L CNN "Manufacturer_Name"
+F 9 "RB060M-60TR" H 6050 1850 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5550 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L DTC123JUAT106:DTC123JUAT106 Q?
+U 1 1 5F276DE6
+P 5450 3450
+F 0 "Q?" H 6500 3715 50  0000 C CNN
+F 1 "DTC123JUAT106" H 6500 3624 50  0000 C CNN
+F 2 "SOT65P210X100-3N" H 7400 3550 50  0001 L CNN
+F 3 "" H 7400 3450 50  0001 L CNN
+F 4 "ROHM, DTC123JUAT106 NPN Digital Transistor, 100 mA 50 V 2.2 k, Ratio Of 21, 3-Pin SOT-323" H 7400 3350 50  0001 L CNN "Description"
+F 5 "1" H 7400 3250 50  0001 L CNN "Height"
+F 6 "" H 7400 3150 50  0001 L CNN "Mouser2 Part Number"
+F 7 "" H 7400 3050 50  0001 L CNN "Mouser2 Price/Stock"
+F 8 "ROHM Semiconductor" H 7400 2950 50  0001 L CNN "Manufacturer_Name"
+F 9 "DTC123JUAT106" H 7400 2850 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5450 3450
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
