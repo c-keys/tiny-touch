@@ -827,10 +827,10 @@ F 3 "" H 5300 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse PF?
 U 1 1 5F32644E
 P 4900 6250
-F 0 "F?" V 4675 6250 50  0000 C CNN
+F 0 "PF?" V 4675 6250 50  0000 C CNN
 F 1 "500mA" V 4766 6250 50  0000 C CNN
 F 2 "" H 4950 6050 50  0001 L CNN
 F 3 "~" H 4900 6250 50  0001 C CNN
@@ -864,17 +864,6 @@ F 2 "" H 4850 800 50  0001 C CNN
 F 3 "~" H 4850 800 50  0001 C CNN
 	1    4850 800 
 	0    -1   -1   0   
-$EndComp
-$Comp
-L cKeys-symbols:Tiny-Touch-Pad P1
-U 1 1 5F25FB38
-P 5250 750
-F 0 "P1" H 5200 850 50  0000 C CNN
-F 1 "Tiny-Touch-Pad" H 5250 850 50  0001 C CNN
-F 2 "" H 5250 750 50  0001 C CNN
-F 3 "" H 5250 750 50  0001 C CNN
-	1    5250 750 
-	1    0    0    -1  
 $EndComp
 $Comp
 L Transistor_BJT:DTA114W Q?
@@ -1064,4 +1053,1165 @@ Text GLabel 850  3300 0    50   Input ~ 0
 E0
 Text GLabel 850  3200 0    50   Input ~ 0
 B9
+Text GLabel 7050 800  2    50   Input ~ 0
+E3
+Text GLabel 7950 800  2    50   Input ~ 0
+E4
+Text GLabel 8850 800  2    50   Input ~ 0
+E5
+Text GLabel 9750 800  2    50   Input ~ 0
+E6
+Text GLabel 6150 1050 2    50   Input ~ 0
+C13
+Text GLabel 7050 1050 2    50   Input ~ 0
+C14
+Text GLabel 7950 1050 2    50   Input ~ 0
+F9
+Text GLabel 8850 1050 2    50   Input ~ 0
+F10
+Text GLabel 9750 1050 2    50   Input ~ 0
+F0
+Text GLabel 6150 1300 2    50   Input ~ 0
+F1
+Text GLabel 7950 1300 2    50   Input ~ 0
+C1
+Text GLabel 8850 1300 2    50   Input ~ 0
+C2
+Text GLabel 9750 1300 2    50   Input ~ 0
+C3
+Text GLabel 9800 6100 0    50   Input ~ 0
+F2
+Text GLabel 9800 6200 0    50   Input ~ 0
+F3
+Text GLabel 9800 6300 0    50   Input ~ 0
+A0
+Text GLabel 9800 6400 0    50   Input ~ 0
+A1
+Text GLabel 9800 6500 0    50   Input ~ 0
+A2
+Text GLabel 10200 4600 0    50   Input ~ 0
+A3
+Text GLabel 10200 4700 0    50   Input ~ 0
+A4
+Text GLabel 10200 4800 0    50   Input ~ 0
+A5
+Text GLabel 10200 4900 0    50   Input ~ 0
+A6
+Text GLabel 10200 6500 0    50   Input ~ 0
+B10
+Text GLabel 10200 6600 0    50   Input ~ 0
+B11
+Text GLabel 10200 6200 0    50   Input ~ 0
+E13
+Text GLabel 10200 6300 0    50   Input ~ 0
+E14
+Text GLabel 10200 6400 0    50   Input ~ 0
+E15
+Text GLabel 10200 5900 0    50   Input ~ 0
+E10
+Text GLabel 10200 6000 0    50   Input ~ 0
+E11
+Text GLabel 10200 6100 0    50   Input ~ 0
+E12
+Text GLabel 10200 5600 0    50   Input ~ 0
+E7
+Text GLabel 10200 5700 0    50   Input ~ 0
+E8
+Text GLabel 10200 5800 0    50   Input ~ 0
+E9
+Text GLabel 10200 5300 0    50   Input ~ 0
+B0
+Text GLabel 10200 5400 0    50   Input ~ 0
+B1
+Text GLabel 10200 5500 0    50   Input ~ 0
+B2
+Text GLabel 10200 5000 0    50   Input ~ 0
+A7
+Text GLabel 10200 5100 0    50   Input ~ 0
+C4
+Text GLabel 10200 5200 0    50   Input ~ 0
+C5
+Text GLabel 10600 4600 0    50   Input ~ 0
+B12
+Text GLabel 11000 4700 0    50   Input ~ 0
+C11
+Text GLabel 11000 4600 0    50   Input ~ 0
+C10
+Text GLabel 11000 5000 0    50   Input ~ 0
+D1
+Text GLabel 11000 4900 0    50   Input ~ 0
+D0
+Text GLabel 11000 4800 0    50   Input ~ 0
+C12
+Text GLabel 11000 5100 0    50   Input ~ 0
+D2
+Text GLabel 11000 5400 0    50   Input ~ 0
+D5
+Text GLabel 11000 5300 0    50   Input ~ 0
+D4
+Text GLabel 11000 5200 0    50   Input ~ 0
+D3
+Text GLabel 11000 5700 0    50   Input ~ 0
+B3
+Text GLabel 11000 5600 0    50   Input ~ 0
+D7
+Text GLabel 11000 5500 0    50   Input ~ 0
+D6
+Text GLabel 11000 5800 0    50   Input ~ 0
+B4
+Text GLabel 11000 6100 0    50   Input ~ 0
+B7
+Text GLabel 11000 6000 0    50   Input ~ 0
+B6
+Text GLabel 11000 5900 0    50   Input ~ 0
+B5
+Text GLabel 11000 6300 0    50   Input ~ 0
+B8
+Text GLabel 11000 6600 0    50   Input ~ 0
+E1
+Text GLabel 11000 6500 0    50   Input ~ 0
+E0
+Text GLabel 11000 6400 0    50   Input ~ 0
+B9
+Text GLabel 10600 6400 0    50   Input ~ 0
+F6
+Text GLabel 10600 6300 0    50   Input ~ 0
+A13
+Text GLabel 10600 6200 0    50   Input ~ 0
+A10
+Text GLabel 10600 6100 0    50   Input ~ 0
+A9
+Text GLabel 10600 5400 0    50   Input ~ 0
+D14
+Text GLabel 10600 5700 0    50   Input ~ 0
+C7
+Text GLabel 10600 5600 0    50   Input ~ 0
+C6
+Text GLabel 10600 5500 0    50   Input ~ 0
+D15
+Text GLabel 10600 6000 0    50   Input ~ 0
+A8
+Text GLabel 10600 5900 0    50   Input ~ 0
+C9
+Text GLabel 10600 5800 0    50   Input ~ 0
+C8
+Text GLabel 10600 4700 0    50   Input ~ 0
+B15
+Text GLabel 10600 5000 0    50   Input ~ 0
+D10
+Text GLabel 10600 4900 0    50   Input ~ 0
+D9
+Text GLabel 10600 4800 0    50   Input ~ 0
+D8
+Text GLabel 10600 5300 0    50   Input ~ 0
+D13
+Text GLabel 10600 5200 0    50   Input ~ 0
+D12
+Text GLabel 10600 5100 0    50   Input ~ 0
+D11
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad F1
+U 1 1 5F559231
+P 6100 800
+F 0 "F1" H 5850 800 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6090 976 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 6102 912 50  0001 C CNN
+F 3 "" H 6089 827 50  0001 C CNN
+	1    6100 800 
+	1    0    0    -1  
+$EndComp
+Text GLabel 6150 800  2    50   Input ~ 0
+E2
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad F2
+U 1 1 5F576561
+P 7000 800
+F 0 "F2" H 6750 800 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6990 976 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7002 912 50  0001 C CNN
+F 3 "" H 6989 827 50  0001 C CNN
+	1    7000 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad F3
+U 1 1 5F578488
+P 7900 800
+F 0 "F3" H 7650 800 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 7890 976 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7902 912 50  0001 C CNN
+F 3 "" H 7889 827 50  0001 C CNN
+	1    7900 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad F4
+U 1 1 5F57B65F
+P 8800 800
+F 0 "F4" H 8550 800 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 8790 976 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 8802 912 50  0001 C CNN
+F 3 "" H 8789 827 50  0001 C CNN
+	1    8800 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad F5
+U 1 1 5F57B666
+P 9700 800
+F 0 "F5" H 9450 800 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 9690 976 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 9702 912 50  0001 C CNN
+F 3 "" H 9689 827 50  0001 C CNN
+	1    9700 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad F6
+U 1 1 5F58BBFC
+P 6100 1050
+F 0 "F6" H 5850 1050 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6090 1226 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 6102 1162 50  0001 C CNN
+F 3 "" H 6089 1077 50  0001 C CNN
+	1    6100 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad F7
+U 1 1 5F58BC03
+P 7000 1050
+F 0 "F7" H 6750 1050 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6990 1226 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7002 1162 50  0001 C CNN
+F 3 "" H 6989 1077 50  0001 C CNN
+	1    7000 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad F8
+U 1 1 5F58BC09
+P 7900 1050
+F 0 "F8" H 7650 1050 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 7890 1226 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7902 1162 50  0001 C CNN
+F 3 "" H 7889 1077 50  0001 C CNN
+	1    7900 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad F9
+U 1 1 5F58BC0F
+P 8800 1050
+F 0 "F9" H 8550 1050 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 8790 1226 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 8802 1162 50  0001 C CNN
+F 3 "" H 8789 1077 50  0001 C CNN
+	1    8800 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad F10
+U 1 1 5F58BC15
+P 9700 1050
+F 0 "F10" H 9450 1050 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 9690 1226 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 9702 1162 50  0001 C CNN
+F 3 "" H 9689 1077 50  0001 C CNN
+	1    9700 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad F11
+U 1 1 5F591A83
+P 6100 1300
+F 0 "F11" H 5850 1300 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6090 1476 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 6102 1412 50  0001 C CNN
+F 3 "" H 6089 1327 50  0001 C CNN
+	1    6100 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad F12
+U 1 1 5F591A89
+P 7000 1300
+F 0 "F12" H 6750 1300 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6990 1476 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7002 1412 50  0001 C CNN
+F 3 "" H 6989 1327 50  0001 C CNN
+	1    7000 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad blank
+U 1 1 5F591A8F
+P 7900 1300
+F 0 "blank" H 7650 1300 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 7890 1476 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7902 1412 50  0001 C CNN
+F 3 "" H 7889 1327 50  0001 C CNN
+	1    7900 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad blank
+U 1 1 5F591A95
+P 8800 1300
+F 0 "blank" H 8550 1300 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 8790 1476 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 8802 1412 50  0001 C CNN
+F 3 "" H 8789 1327 50  0001 C CNN
+	1    8800 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad blank
+U 1 1 5F591A9B
+P 9700 1300
+F 0 "blank" H 9450 1300 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 9690 1476 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 9702 1412 50  0001 C CNN
+F 3 "" H 9689 1327 50  0001 C CNN
+	1    9700 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad space
+U 1 1 5F59941F
+P 6100 1550
+F 0 "space" H 5850 1550 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6090 1726 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 6102 1662 50  0001 C CNN
+F 3 "" H 6089 1577 50  0001 C CNN
+	1    6100 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad up
+U 1 1 5F599425
+P 7000 1550
+F 0 "up" H 6750 1550 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6990 1726 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7002 1662 50  0001 C CNN
+F 3 "" H 6989 1577 50  0001 C CNN
+	1    7000 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad down
+U 1 1 5F59942B
+P 7900 1550
+F 0 "down" H 7650 1550 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 7890 1726 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7902 1662 50  0001 C CNN
+F 3 "" H 7889 1577 50  0001 C CNN
+	1    7900 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad right
+U 1 1 5F599431
+P 8800 1550
+F 0 "right" H 8550 1550 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 8790 1726 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 8802 1662 50  0001 C CNN
+F 3 "" H 8789 1577 50  0001 C CNN
+	1    8800 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad left
+U 1 1 5F599437
+P 9700 1550
+F 0 "left" H 9450 1550 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 9690 1726 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 9702 1662 50  0001 C CNN
+F 3 "" H 9689 1577 50  0001 C CNN
+	1    9700 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad esc
+U 1 1 5F599443
+P 6100 1800
+F 0 "esc" H 5850 1800 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6090 1976 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 6102 1912 50  0001 C CNN
+F 3 "" H 6089 1827 50  0001 C CNN
+	1    6100 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad tab
+U 1 1 5F599449
+P 7000 1800
+F 0 "tab" H 6750 1800 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6990 1976 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7002 1912 50  0001 C CNN
+F 3 "" H 6989 1827 50  0001 C CNN
+	1    7000 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad caps
+U 1 1 5F59944F
+P 7900 1800
+F 0 "caps" H 7650 1800 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 7890 1976 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7902 1912 50  0001 C CNN
+F 3 "" H 7889 1827 50  0001 C CNN
+	1    7900 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad shift
+U 1 1 5F599455
+P 8800 1800
+F 0 "shift" H 8550 1800 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 8790 1976 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 8802 1912 50  0001 C CNN
+F 3 "" H 8789 1827 50  0001 C CNN
+	1    8800 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad enter
+U 1 1 5F59945B
+P 9700 1800
+F 0 "enter" H 9450 1800 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 9690 1976 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 9702 1912 50  0001 C CNN
+F 3 "" H 9689 1827 50  0001 C CNN
+	1    9700 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad backspace
+U 1 1 5F5C9245
+P 6100 2050
+F 0 "backspace" H 5850 2050 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6090 2226 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 6102 2162 50  0001 C CNN
+F 3 "" H 6089 2077 50  0001 C CNN
+	1    6100 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad delete
+U 1 1 5F5C924B
+P 7000 2050
+F 0 "delete" H 6750 2050 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6990 2226 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7002 2162 50  0001 C CNN
+F 3 "" H 6989 2077 50  0001 C CNN
+	1    7000 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad `
+U 1 1 5F5C9251
+P 7900 2050
+F 0 "`" H 7650 2050 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 7890 2226 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7902 2162 50  0001 C CNN
+F 3 "" H 7889 2077 50  0001 C CNN
+	1    7900 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad num1
+U 1 1 5F5C9257
+P 8800 2050
+F 0 "num1" H 8550 2050 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 8790 2226 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 8802 2162 50  0001 C CNN
+F 3 "" H 8789 2077 50  0001 C CNN
+	1    8800 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad num2
+U 1 1 5F5C925D
+P 9700 2050
+F 0 "num2" H 9450 2050 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 9690 2226 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 9702 2162 50  0001 C CNN
+F 3 "" H 9689 2077 50  0001 C CNN
+	1    9700 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad num3
+U 1 1 5F5C9263
+P 6100 2300
+F 0 "num3" H 5850 2300 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6090 2476 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 6102 2412 50  0001 C CNN
+F 3 "" H 6089 2327 50  0001 C CNN
+	1    6100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad num4
+U 1 1 5F5C9269
+P 7000 2300
+F 0 "num4" H 6750 2300 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6990 2476 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7002 2412 50  0001 C CNN
+F 3 "" H 6989 2327 50  0001 C CNN
+	1    7000 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad num5
+U 1 1 5F5C926F
+P 7900 2300
+F 0 "num5" H 7650 2300 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 7890 2476 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7902 2412 50  0001 C CNN
+F 3 "" H 7889 2327 50  0001 C CNN
+	1    7900 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad num6
+U 1 1 5F5C9275
+P 8800 2300
+F 0 "num6" H 8550 2300 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 8790 2476 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 8802 2412 50  0001 C CNN
+F 3 "" H 8789 2327 50  0001 C CNN
+	1    8800 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad num7
+U 1 1 5F5C927B
+P 9700 2300
+F 0 "num7" H 9450 2300 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 9690 2476 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 9702 2412 50  0001 C CNN
+F 3 "" H 9689 2327 50  0001 C CNN
+	1    9700 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad num8
+U 1 1 5F5C9281
+P 6100 2550
+F 0 "num8" H 5850 2550 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6090 2726 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 6102 2662 50  0001 C CNN
+F 3 "" H 6089 2577 50  0001 C CNN
+	1    6100 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad num9
+U 1 1 5F5C9287
+P 7000 2550
+F 0 "num9" H 6750 2550 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6990 2726 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7002 2662 50  0001 C CNN
+F 3 "" H 6989 2577 50  0001 C CNN
+	1    7000 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad num0
+U 1 1 5F5C928D
+P 7900 2550
+F 0 "num0" H 7650 2550 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 7890 2726 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7902 2662 50  0001 C CNN
+F 3 "" H 7889 2577 50  0001 C CNN
+	1    7900 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad -
+U 1 1 5F5C9293
+P 8800 2550
+F 0 "-" H 8550 2550 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 8790 2726 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 8802 2662 50  0001 C CNN
+F 3 "" H 8789 2577 50  0001 C CNN
+	1    8800 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad =
+U 1 1 5F5C9299
+P 9700 2550
+F 0 "=" H 9450 2550 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 9690 2726 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 9702 2662 50  0001 C CNN
+F 3 "" H 9689 2577 50  0001 C CNN
+	1    9700 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad \
+U 1 1 5F5C929F
+P 6100 2800
+F 0 "\\" H 5850 2800 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6090 2976 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 6102 2912 50  0001 C CNN
+F 3 "" H 6089 2827 50  0001 C CNN
+	1    6100 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad tab
+U 1 1 5F5C92A5
+P 7000 2800
+F 0 "tab" H 6750 2800 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6990 2976 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7002 2912 50  0001 C CNN
+F 3 "" H 6989 2827 50  0001 C CNN
+	1    7000 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad q
+U 1 1 5F5C92AB
+P 7900 2800
+F 0 "q" H 7650 2800 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 7890 2976 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7902 2912 50  0001 C CNN
+F 3 "" H 7889 2827 50  0001 C CNN
+	1    7900 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad w
+U 1 1 5F5C92B1
+P 8800 2800
+F 0 "w" H 8550 2800 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 8790 2976 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 8802 2912 50  0001 C CNN
+F 3 "" H 8789 2827 50  0001 C CNN
+	1    8800 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad e
+U 1 1 5F5C92B7
+P 9700 2800
+F 0 "e" H 9450 2800 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 9690 2976 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 9702 2912 50  0001 C CNN
+F 3 "" H 9689 2827 50  0001 C CNN
+	1    9700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad r
+U 1 1 5F5D26D9
+P 6100 3050
+F 0 "r" H 5850 3050 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6090 3226 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 6102 3162 50  0001 C CNN
+F 3 "" H 6089 3077 50  0001 C CNN
+	1    6100 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad t
+U 1 1 5F5D26DF
+P 7000 3050
+F 0 "t" H 6750 3050 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6990 3226 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7002 3162 50  0001 C CNN
+F 3 "" H 6989 3077 50  0001 C CNN
+	1    7000 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad y
+U 1 1 5F5D26E5
+P 7900 3050
+F 0 "y" H 7650 3050 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 7890 3226 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7902 3162 50  0001 C CNN
+F 3 "" H 7889 3077 50  0001 C CNN
+	1    7900 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad u
+U 1 1 5F5D26EB
+P 8800 3050
+F 0 "u" H 8550 3050 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 8790 3226 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 8802 3162 50  0001 C CNN
+F 3 "" H 8789 3077 50  0001 C CNN
+	1    8800 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad i
+U 1 1 5F5D26F1
+P 9700 3050
+F 0 "i" H 9450 3050 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 9690 3226 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 9702 3162 50  0001 C CNN
+F 3 "" H 9689 3077 50  0001 C CNN
+	1    9700 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad o
+U 1 1 5F5D26F7
+P 6100 3300
+F 0 "o" H 5850 3300 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6090 3476 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 6102 3412 50  0001 C CNN
+F 3 "" H 6089 3327 50  0001 C CNN
+	1    6100 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad p
+U 1 1 5F5D26FD
+P 7000 3300
+F 0 "p" H 6750 3300 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6990 3476 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7002 3412 50  0001 C CNN
+F 3 "" H 6989 3327 50  0001 C CNN
+	1    7000 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad [
+U 1 1 5F5D2703
+P 7900 3300
+F 0 "[" H 7650 3300 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 7890 3476 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7902 3412 50  0001 C CNN
+F 3 "" H 7889 3327 50  0001 C CNN
+	1    7900 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad ]
+U 1 1 5F5D2709
+P 8800 3300
+F 0 "]" H 8550 3300 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 8790 3476 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 8802 3412 50  0001 C CNN
+F 3 "" H 8789 3327 50  0001 C CNN
+	1    8800 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad caps
+U 1 1 5F5D270F
+P 9700 3300
+F 0 "caps" H 9450 3300 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 9690 3476 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 9702 3412 50  0001 C CNN
+F 3 "" H 9689 3327 50  0001 C CNN
+	1    9700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad a
+U 1 1 5F5D2715
+P 6100 3550
+F 0 "a" H 5850 3550 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6090 3726 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 6102 3662 50  0001 C CNN
+F 3 "" H 6089 3577 50  0001 C CNN
+	1    6100 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad s
+U 1 1 5F5D271B
+P 7000 3550
+F 0 "s" H 6750 3550 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6990 3726 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7002 3662 50  0001 C CNN
+F 3 "" H 6989 3577 50  0001 C CNN
+	1    7000 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad d
+U 1 1 5F5D2721
+P 7900 3550
+F 0 "d" H 7650 3550 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 7890 3726 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7902 3662 50  0001 C CNN
+F 3 "" H 7889 3577 50  0001 C CNN
+	1    7900 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad f
+U 1 1 5F5D2727
+P 8800 3550
+F 0 "f" H 8550 3550 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 8790 3726 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 8802 3662 50  0001 C CNN
+F 3 "" H 8789 3577 50  0001 C CNN
+	1    8800 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad g
+U 1 1 5F5D272D
+P 9700 3550
+F 0 "g" H 9450 3550 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 9690 3726 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 9702 3662 50  0001 C CNN
+F 3 "" H 9689 3577 50  0001 C CNN
+	1    9700 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad h
+U 1 1 5F5D2733
+P 6100 3800
+F 0 "h" H 5850 3800 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6090 3976 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 6102 3912 50  0001 C CNN
+F 3 "" H 6089 3827 50  0001 C CNN
+	1    6100 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad j
+U 1 1 5F5D2739
+P 7000 3800
+F 0 "j" H 6750 3800 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6990 3976 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7002 3912 50  0001 C CNN
+F 3 "" H 6989 3827 50  0001 C CNN
+	1    7000 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad k
+U 1 1 5F5D273F
+P 7900 3800
+F 0 "k" H 7650 3800 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 7890 3976 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7902 3912 50  0001 C CNN
+F 3 "" H 7889 3827 50  0001 C CNN
+	1    7900 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad l
+U 1 1 5F5D2745
+P 8800 3800
+F 0 "l" H 8550 3800 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 8790 3976 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 8802 3912 50  0001 C CNN
+F 3 "" H 8789 3827 50  0001 C CNN
+	1    8800 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad ;
+U 1 1 5F5D274B
+P 9700 3800
+F 0 ";" H 9450 3800 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 9690 3976 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 9702 3912 50  0001 C CNN
+F 3 "" H 9689 3827 50  0001 C CNN
+	1    9700 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad '
+U 1 1 5F5D9CB3
+P 6100 4050
+F 0 "'" H 5850 4050 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6090 4226 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 6102 4162 50  0001 C CNN
+F 3 "" H 6089 4077 50  0001 C CNN
+	1    6100 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad enter
+U 1 1 5F5D9CB9
+P 7000 4050
+F 0 "enter" H 6750 4050 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6990 4226 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7002 4162 50  0001 C CNN
+F 3 "" H 6989 4077 50  0001 C CNN
+	1    7000 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad shift
+U 1 1 5F5D9CBF
+P 7900 4050
+F 0 "shift" H 7650 4050 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 7890 4226 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7902 4162 50  0001 C CNN
+F 3 "" H 7889 4077 50  0001 C CNN
+	1    7900 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad z
+U 1 1 5F5D9CC5
+P 8800 4050
+F 0 "z" H 8550 4050 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 8790 4226 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 8802 4162 50  0001 C CNN
+F 3 "" H 8789 4077 50  0001 C CNN
+	1    8800 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad x
+U 1 1 5F5D9CCB
+P 9700 4050
+F 0 "x" H 9450 4050 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 9690 4226 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 9702 4162 50  0001 C CNN
+F 3 "" H 9689 4077 50  0001 C CNN
+	1    9700 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad c
+U 1 1 5F5D9CD1
+P 6100 4300
+F 0 "c" H 5850 4300 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6090 4476 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 6102 4412 50  0001 C CNN
+F 3 "" H 6089 4327 50  0001 C CNN
+	1    6100 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad v
+U 1 1 5F5D9CD7
+P 7000 4300
+F 0 "v" H 6750 4300 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6990 4476 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7002 4412 50  0001 C CNN
+F 3 "" H 6989 4327 50  0001 C CNN
+	1    7000 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad b
+U 1 1 5F5D9CDD
+P 7900 4300
+F 0 "b" H 7650 4300 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 7890 4476 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7902 4412 50  0001 C CNN
+F 3 "" H 7889 4327 50  0001 C CNN
+	1    7900 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad n
+U 1 1 5F5D9CE3
+P 8800 4300
+F 0 "n" H 8550 4300 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 8790 4476 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 8802 4412 50  0001 C CNN
+F 3 "" H 8789 4327 50  0001 C CNN
+	1    8800 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad m
+U 1 1 5F5D9CE9
+P 9700 4300
+F 0 "m" H 9450 4300 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 9690 4476 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 9702 4412 50  0001 C CNN
+F 3 "" H 9689 4327 50  0001 C CNN
+	1    9700 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad ,
+U 1 1 5F5D9CEF
+P 6100 4550
+F 0 "," H 5850 4550 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6090 4726 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 6102 4662 50  0001 C CNN
+F 3 "" H 6089 4577 50  0001 C CNN
+	1    6100 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad .
+U 1 1 5F5D9CF5
+P 7000 4550
+F 0 "." H 6750 4550 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6990 4726 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7002 4662 50  0001 C CNN
+F 3 "" H 6989 4577 50  0001 C CNN
+	1    7000 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad /
+U 1 1 5F5D9CFB
+P 7900 4550
+F 0 "/" H 7650 4550 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 7890 4726 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7902 4662 50  0001 C CNN
+F 3 "" H 7889 4577 50  0001 C CNN
+	1    7900 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad shift
+U 1 1 5F5D9D01
+P 8800 4550
+F 0 "shift" H 8550 4550 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 8790 4726 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 8802 4662 50  0001 C CNN
+F 3 "" H 8789 4577 50  0001 C CNN
+	1    8800 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad hyper
+U 1 1 5F5D9D07
+P 9700 4550
+F 0 "hyper" H 9450 4550 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 9690 4726 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 9702 4662 50  0001 C CNN
+F 3 "" H 9689 4577 50  0001 C CNN
+	1    9700 4550
+	1    0    0    -1  
+$EndComp
+Text GLabel 7050 1300 2    50   Input ~ 0
+C0
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad super
+U 1 1 5F62F448
+P 6100 4800
+F 0 "super" H 5850 4800 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6090 4976 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 6102 4912 50  0001 C CNN
+F 3 "" H 6089 4827 50  0001 C CNN
+	1    6100 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad ctrl
+U 1 1 5F62F44E
+P 7000 4800
+F 0 "ctrl" H 6750 4800 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6990 4976 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7002 4912 50  0001 C CNN
+F 3 "" H 6989 4827 50  0001 C CNN
+	1    7000 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad win
+U 1 1 5F62F454
+P 7900 4800
+F 0 "win" H 7650 4800 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 7890 4976 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7902 4912 50  0001 C CNN
+F 3 "" H 7889 4827 50  0001 C CNN
+	1    7900 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad alt
+U 1 1 5F62F45A
+P 8800 4800
+F 0 "alt" H 8550 4800 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 8790 4976 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 8802 4912 50  0001 C CNN
+F 3 "" H 8789 4827 50  0001 C CNN
+	1    8800 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad space
+U 1 1 5F62F460
+P 9700 4800
+F 0 "space" H 9450 4800 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 9690 4976 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 9702 4912 50  0001 C CNN
+F 3 "" H 9689 4827 50  0001 C CNN
+	1    9700 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad alt
+U 1 1 5F62F466
+P 6100 5050
+F 0 "alt" H 5850 5050 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6090 5226 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 6102 5162 50  0001 C CNN
+F 3 "" H 6089 5077 50  0001 C CNN
+	1    6100 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad win
+U 1 1 5F62F46C
+P 7000 5050
+F 0 "win" H 6750 5050 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6990 5226 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7002 5162 50  0001 C CNN
+F 3 "" H 6989 5077 50  0001 C CNN
+	1    7000 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad menu
+U 1 1 5F62F472
+P 7900 5050
+F 0 "menu" H 7650 5050 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 7890 5226 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 7902 5162 50  0001 C CNN
+F 3 "" H 7889 5077 50  0001 C CNN
+	1    7900 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad ctrl
+U 1 1 5F62F478
+P 8800 5050
+F 0 "ctrl" H 8550 5050 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 8790 5226 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 8802 5162 50  0001 C CNN
+F 3 "" H 8789 5077 50  0001 C CNN
+	1    8800 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad super
+U 1 1 5F62F47E
+P 9700 5050
+F 0 "super" H 9450 5050 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 9690 5226 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 9702 5162 50  0001 C CNN
+F 3 "" H 9689 5077 50  0001 C CNN
+	1    9700 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L cKeys-symbols:Tiny-Touch-Pad hyper
+U 1 1 5F6312EF
+P 6100 5300
+F 0 "hyper" H 5850 5300 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 6090 5476 50  0001 C CNN
+F 2 "ckeys:Tiny-Touch-Pad" H 6102 5412 50  0001 C CNN
+F 3 "" H 6089 5327 50  0001 C CNN
+	1    6100 5300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -370,14 +370,14 @@ ENDDEF
 #
 # cKeys-symbols_Tiny-Touch-Pad
 #
-DEF cKeys-symbols_Tiny-Touch-Pad P 0 40 Y Y 1 F N
-F0 "P" -100 100 50 H V L TNN
-F1 "cKeys-symbols_Tiny-Touch-Pad" 0 100 50 H I C CNN
-F2 "ckeys:Tiny-Touch-Pad" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+DEF cKeys-symbols_Tiny-Touch-Pad key 0 40 Y Y 1 F N
+F0 "key" -255 5 50 H V C CNN
+F1 "cKeys-symbols_Tiny-Touch-Pad" -10 176 50 H I C CNN
+F2 "ckeys:Tiny-Touch-Pad" 2 112 50 H I C CNN
+F3 "" -191 24 50 H I C CNN
 DRAW
-S 100 -100 -100 50 0 1 0 f
-X ~ 1 100 -50 100 L 40 40 1 1 P
+S 8 -43 -524 49 0 1 0 N
+X ~ 1 50 0 39 L 4 4 1 1 I
 ENDDRAW
 ENDDEF
 #

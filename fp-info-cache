@@ -1,4 +1,4 @@
-17385731869796068
+17388920995196068
 4ms-synth-faceplate-stuff
 Faceplate_Hole_Encoder_290
 
@@ -6300,6 +6300,13 @@ MX-Choc-1U-NoLED-19mm
 4
 2
 ckeys
+PMDU
+PMDU
+Schottky Diode
+0
+2
+2
+ckeys
 ProMicro-Keebio-ZigZag-no-outline
 
 
@@ -6313,6 +6320,13 @@ Integrated Circuit
 0
 100
 100
+ckeys
+SOT65P210X100-3N
+UMT3
+Transistor
+0
+3
+3
 ckeys
 Tiny-Touch-Pad
 
@@ -6360,8 +6374,8 @@ Tiny-Touch-Pad-3u
 
 
 0
-0
-0
+1
+1
 Connector
 Banana_Jack_1Pin
 Single banana socket, footprint - 6mm drill
