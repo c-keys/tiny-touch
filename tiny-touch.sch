@@ -857,23 +857,23 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5F2613A8
-P 11900 4250
-F 0 "H1" H 12000 4299 50  0000 L CNN
-F 1 "Pointer_Clip" H 12000 4208 50  0000 L CNN
-F 2 "" H 11900 4250 50  0001 C CNN
-F 3 "~" H 11900 4250 50  0001 C CNN
-	1    11900 4250
-	1    0    0    -1  
+P 4850 800
+F 0 "H1" V 4850 950 50  0000 L CNN
+F 1 "Pointer_Clip" V 5000 800 50  0000 L CNN
+F 2 "" H 4850 800 50  0001 C CNN
+F 3 "~" H 4850 800 50  0001 C CNN
+	1    4850 800 
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cKeys-symbols:Tiny-Touch-Pad P1
 U 1 1 5F25FB38
-P 12200 4700
-F 0 "P1" H 12150 4800 50  0000 C CNN
-F 1 "Tiny-Touch-Pad" H 12200 4800 50  0001 C CNN
-F 2 "" H 12200 4700 50  0001 C CNN
-F 3 "" H 12200 4700 50  0001 C CNN
-	1    12200 4700
+P 5250 750
+F 0 "P1" H 5200 850 50  0000 C CNN
+F 1 "Tiny-Touch-Pad" H 5250 850 50  0001 C CNN
+F 2 "" H 5250 750 50  0001 C CNN
+F 3 "" H 5250 750 50  0001 C CNN
+	1    5250 750 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -899,4 +899,169 @@ Wire Wire Line
 Connection ~ 2200 7250
 Wire Wire Line
 	1200 6700 1200 7450
+Text GLabel 1550 3900 3    50   Input ~ 0
+E2
+Text GLabel 1650 3900 3    50   Input ~ 0
+E3
+Text GLabel 1750 3900 3    50   Input ~ 0
+E4
+Text GLabel 1850 3900 3    50   Input ~ 0
+E5
+Text GLabel 1950 3900 3    50   Input ~ 0
+E6
+Text GLabel 2150 3900 3    50   Input ~ 0
+C13
+Text GLabel 2250 3900 3    50   Input ~ 0
+C14
+Text GLabel 2450 3900 3    50   Input ~ 0
+F9
+NoConn ~ 2350 3900
+Text GLabel 2550 3900 3    50   Input ~ 0
+F10
+Text GLabel 2650 3900 3    50   Input ~ 0
+F0
+Text GLabel 2750 3900 3    50   Input ~ 0
+F1
+Text GLabel 2950 3900 3    50   Input ~ 0
+C0
+Text GLabel 3050 3900 3    50   Input ~ 0
+C1
+Text GLabel 3150 3900 3    50   Input ~ 0
+C2
+Text GLabel 3250 3900 3    50   Input ~ 0
+C3
+Text GLabel 3350 3900 3    50   Input ~ 0
+F2
+Text GLabel 3650 3900 3    50   Input ~ 0
+F3
+Text GLabel 3750 3900 3    50   Input ~ 0
+A0
+Text GLabel 3850 3900 3    50   Input ~ 0
+A1
+Text GLabel 3950 3900 3    50   Input ~ 0
+A2
+Text GLabel 4650 3600 2    50   Input ~ 0
+A3
+Text GLabel 4650 3300 2    50   Input ~ 0
+A4
+Text GLabel 4650 3200 2    50   Input ~ 0
+A5
+Text GLabel 4650 3100 2    50   Input ~ 0
+A6
+Text GLabel 4650 1500 2    50   Input ~ 0
+B10
+Text GLabel 4650 1400 2    50   Input ~ 0
+B11
+Text GLabel 4650 1800 2    50   Input ~ 0
+E13
+Text GLabel 4650 1700 2    50   Input ~ 0
+E14
+Text GLabel 4650 1600 2    50   Input ~ 0
+E15
+Text GLabel 4650 2100 2    50   Input ~ 0
+E10
+Text GLabel 4650 2000 2    50   Input ~ 0
+E11
+Text GLabel 4650 1900 2    50   Input ~ 0
+E12
+Text GLabel 4650 2400 2    50   Input ~ 0
+E7
+Text GLabel 4650 2300 2    50   Input ~ 0
+E8
+Text GLabel 4650 2200 2    50   Input ~ 0
+E9
+Text GLabel 4650 2700 2    50   Input ~ 0
+B0
+Text GLabel 4650 2600 2    50   Input ~ 0
+B1
+Text GLabel 4650 2500 2    50   Input ~ 0
+B2
+Text GLabel 4650 3000 2    50   Input ~ 0
+A7
+Text GLabel 4650 2900 2    50   Input ~ 0
+C4
+Text GLabel 4650 2800 2    50   Input ~ 0
+C5
+Text GLabel 3250 900  1    50   Input ~ 0
+D11
+Text GLabel 3150 900  1    50   Input ~ 0
+D12
+Text GLabel 3050 900  1    50   Input ~ 0
+D13
+Text GLabel 3550 900  1    50   Input ~ 0
+D8
+Text GLabel 3450 900  1    50   Input ~ 0
+D9
+Text GLabel 3350 900  1    50   Input ~ 0
+D10
+Text GLabel 3650 900  1    50   Input ~ 0
+B15
+Text GLabel 2550 900  1    50   Input ~ 0
+C8
+Text GLabel 2450 900  1    50   Input ~ 0
+C9
+Text GLabel 2350 900  1    50   Input ~ 0
+A8
+Text GLabel 2850 900  1    50   Input ~ 0
+D15
+Text GLabel 2750 900  1    50   Input ~ 0
+C6
+Text GLabel 2650 900  1    50   Input ~ 0
+C7
+Text GLabel 2950 900  1    50   Input ~ 0
+D14
+Text GLabel 2250 900  1    50   Input ~ 0
+A9
+Text GLabel 2150 900  1    50   Input ~ 0
+A10
+Text GLabel 1850 900  1    50   Input ~ 0
+A13
+Text GLabel 1750 900  1    50   Input ~ 0
+F6
+Text GLabel 3950 900  1    50   Input ~ 0
+B12
+Text GLabel 850  1200 0    50   Input ~ 0
+A14
+Text GLabel 850  1500 0    50   Input ~ 0
+C11
+Text GLabel 850  1400 0    50   Input ~ 0
+C10
+Text GLabel 850  1300 0    50   Input ~ 0
+A15
+Text GLabel 850  1800 0    50   Input ~ 0
+D1
+Text GLabel 850  1700 0    50   Input ~ 0
+D0
+Text GLabel 850  1600 0    50   Input ~ 0
+C12
+Text GLabel 850  1900 0    50   Input ~ 0
+D2
+Text GLabel 850  2200 0    50   Input ~ 0
+D5
+Text GLabel 850  2100 0    50   Input ~ 0
+D4
+Text GLabel 850  2000 0    50   Input ~ 0
+D3
+Text GLabel 850  2500 0    50   Input ~ 0
+B3
+Text GLabel 850  2400 0    50   Input ~ 0
+D7
+Text GLabel 850  2300 0    50   Input ~ 0
+D6
+Text GLabel 850  2600 0    50   Input ~ 0
+B4
+Text GLabel 850  2900 0    50   Input ~ 0
+B7
+Text GLabel 850  2800 0    50   Input ~ 0
+B6
+Text GLabel 850  2700 0    50   Input ~ 0
+B5
+Text GLabel 850  3100 0    50   Input ~ 0
+B8
+Text GLabel 850  3400 0    50   Input ~ 0
+E1
+Text GLabel 850  3300 0    50   Input ~ 0
+E0
+Text GLabel 850  3200 0    50   Input ~ 0
+B9
 $EndSCHEMATC
