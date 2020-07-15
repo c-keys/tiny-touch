@@ -2,10 +2,10 @@
 
   (general
     (thickness 1.6)
-    (drawings 0)
+    (drawings 8)
     (tracks 0)
     (zones 0)
-    (modules 118)
+    (modules 122)
     (nets 101)
   )
 
@@ -301,8 +301,84 @@
     (add_net VBUS)
   )
 
-  (module ckeys:Tiny-Touch-Pad-3u (layer F.Cu) (tedit 5F0E8AAD) (tstamp 5F0D9390)
-    (at 153.1882 90.0812)
+  (module MountingHole:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5F0F3C66)
+    (at 114.4 137)
+    (descr "Mounting Hole 2.2mm, no annular, M2")
+    (tags "mounting hole 2.2mm no annular m2")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_2.2mm_M2 (at 0 3.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.45 0) (layer F.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 2.2 0) (layer Cmts.User) (width 0.15))
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
+  )
+
+  (module MountingHole:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5F0F3C7B)
+    (at 114.4 75)
+    (descr "Mounting Hole 2.2mm, no annular, M2")
+    (tags "mounting hole 2.2mm no annular m2")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_2.2mm_M2 (at 0 3.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.2 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 2.45 0) (layer F.CrtYd) (width 0.05))
+    (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
+  )
+
+  (module MountingHole:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5F0F3CC4)
+    (at 209.7 137)
+    (descr "Mounting Hole 2.2mm, no annular, M2")
+    (tags "mounting hole 2.2mm no annular m2")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_2.2mm_M2 (at 0 3.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.2 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 2.45 0) (layer F.CrtYd) (width 0.05))
+    (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
+  )
+
+  (module MountingHole:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5F0F3BAF)
+    (at 209.7 75)
+    (descr "Mounting Hole 2.2mm, no annular, M2")
+    (tags "mounting hole 2.2mm no annular m2")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_2.2mm_M2 (at 0 3.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.45 0) (layer F.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 2.2 0) (layer Cmts.User) (width 0.15))
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
+  )
+
+  (module ckeys:Tiny-Touch-Pad-3u (layer F.Cu) (tedit 5F0E8AAD) (tstamp 5F0F3636)
+    (at 153.1882 85.4812)
     (path /5F59941F)
     (fp_text reference SPACE (at -9.5482 0.4988) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
@@ -318,8 +394,8 @@
       (net 78 F2))
   )
 
-  (module ckeys:Tiny-Touch-Pad-2u (layer F.Cu) (tedit 5F0E87E2) (tstamp 5F0D9381)
-    (at 201.9328 83.495)
+  (module ckeys:Tiny-Touch-Pad-2u (layer F.Cu) (tedit 5F0E87E2) (tstamp 5F0F358E)
+    (at 201.9328 76.595)
     (path /5F591A8F)
     (fp_text reference PAD13 (at -5.0546 0.635) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
@@ -335,8 +411,8 @@
       (net 81 C1))
   )
 
-  (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D9345)
-    (at 120.4396 83.3018)
+  (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F364E)
+    (at 120.4396 76.4018)
     (path /5F559231)
     (fp_text reference F1 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
@@ -352,10 +428,10 @@
       (net 94 E2))
   )
 
-  (module ckeys:Tiny-Touch-Pad-2.25u (layer F.Cu) (tedit 5F0E8A98) (tstamp 5F0D93C7)
-    (at 201.1228 96.5658)
+  (module ckeys:Tiny-Touch-Pad-2.25u (layer F.Cu) (tedit 5F0E8A98) (tstamp 5F0F340E)
+    (at 201.1228 94.2658)
     (path /5F5C924B)
-    (fp_text reference PAD27 (at -5.0546 0.5842) (layer F.SilkS)
+    (fp_text reference DELETE (at -7.1228 0.5342) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -369,10 +445,10 @@
       (net 67 C5))
   )
 
-  (module ckeys:Tiny-Touch-Pad-2.25u (layer F.Cu) (tedit 5F0E8A98) (tstamp 5F0D93BD)
-    (at 171.8628 96.5658)
+  (module ckeys:Tiny-Touch-Pad-2.25u (layer F.Cu) (tedit 5F0E8A98) (tstamp 5F0F35BE)
+    (at 171.8628 94.2658)
     (path /5F59945B)
-    (fp_text reference PAD25 (at -5.0546 0.5842) (layer F.SilkS)
+    (fp_text reference ENTER (at -7.1628 0.5342) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -386,10 +462,10 @@
       (net 69 A7))
   )
 
-  (module ckeys:Tiny-Touch-Pad-1.5u (layer F.Cu) (tedit 5F0E894B) (tstamp 5F0D93B3)
-    (at 145.109 96.5204)
+  (module ckeys:Tiny-Touch-Pad-1.5u (layer F.Cu) (tedit 5F0E894B) (tstamp 5F0F3576)
+    (at 145.109 94.2304)
     (path /5F59944F)
-    (fp_text reference PAD23 (at -4.1402 0.6096) (layer F.SilkS)
+    (fp_text reference CAPS (at -4.809 0.5696) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -403,10 +479,10 @@
       (net 71 A5))
   )
 
-  (module ckeys:Tiny-Touch-Pad-1.5u (layer F.Cu) (tedit 5F0E894B) (tstamp 5F0D93AE)
-    (at 135.349 96.5304)
+  (module ckeys:Tiny-Touch-Pad-1.5u (layer F.Cu) (tedit 5F0E894B) (tstamp 5F0F355E)
+    (at 135.349 94.2304)
     (path /5F599449)
-    (fp_text reference PAD22 (at -4.1402 0.6096) (layer F.SilkS)
+    (fp_text reference TAB (at -4.849 0.5696) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -420,10 +496,10 @@
       (net 72 A4))
   )
 
-  (module ckeys:Tiny-Touch-Pad-1.75u (layer F.Cu) (tedit 5F0E87C7) (tstamp 5F0F043E)
-    (at 202.565 90.0912)
+  (module ckeys:Tiny-Touch-Pad-1.75u (layer F.Cu) (tedit 5F0E87C7) (tstamp 5F0F352E)
+    (at 202.565 85.4912)
     (path /5F599437)
-    (fp_text reference LEFT (at -4.3942 0.5588) (layer F.SilkS)
+    (fp_text reference LEFT (at -5.365 0.5088) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -437,10 +513,10 @@
       (net 74 A2))
   )
 
-  (module ckeys:Tiny-Touch-Pad-2u (layer F.Cu) (tedit 5F0E87E2) (tstamp 5F0F1382)
-    (at 123.8928 96.505)
+  (module ckeys:Tiny-Touch-Pad-2u (layer F.Cu) (tedit 5F0E87E2) (tstamp 5F0F3546)
+    (at 123.8928 94.205)
     (path /5F599443)
-    (fp_text reference PAD21 (at -6.3528 0.585) (layer F.SilkS)
+    (fp_text reference ESC (at -6.3528 0.585) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -455,7 +531,7 @@
   )
 
   (module Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm (layer F.Cu) (tedit 5CA1CA7F) (tstamp 5F0D95B3)
-    (at 206.681 154.09)
+    (at 291.681 114.49)
     (descr "tactile push button, 6x6mm e.g. PTS645xx series, height=9.5mm")
     (tags "tact sw push 6mm smd")
     (path /5F2BF5BB)
@@ -502,7 +578,7 @@
   )
 
   (module Diode_SMD:D_SOD-323_HandSoldering (layer F.Cu) (tedit 58641869) (tstamp 5F0D92BB)
-    (at 195.461 153.84)
+    (at 280.461 114.24)
     (descr SOD-323)
     (tags SOD-323)
     (path /5F2B4382)
@@ -545,7 +621,7 @@
   )
 
   (module Type-C:HRO-TYPE-C-31-M-12-HandSoldering (layer F.Cu) (tedit 5C42C6AC) (tstamp 5F0D95F8)
-    (at 180.705999 192.834999)
+    (at 265.705999 153.234999)
     (path /5F1DF8D9)
     (attr smd)
     (fp_text reference USB1 (at 0 -10.2) (layer F.SilkS)
@@ -595,7 +671,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23-6 (layer F.Cu) (tedit 5A02FF57) (tstamp 5F0D95DE)
-    (at 258.451 174.25)
+    (at 305.551 125.95)
     (descr "6-pin SOT-23 package")
     (tags SOT-23-6)
     (path /5F1EB196)
@@ -640,7 +716,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23 (layer F.Cu) (tedit 5A02FF57) (tstamp 5F0D95C8)
-    (at 253.251 180.82)
+    (at 300.351 132.52)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /5F1FAE10)
@@ -681,7 +757,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5F0D9594)
-    (at 239.561 200.57)
+    (at 286.661 152.27)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5F2EAECE)
@@ -717,7 +793,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5F0D9583)
-    (at 253.201 186.86)
+    (at 300.301 138.56)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5F2F10AD)
@@ -753,7 +829,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5F0D9572)
-    (at 253.201 184.35)
+    (at 300.301 136.05)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5F2CB241)
@@ -789,7 +865,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5F0D9561)
-    (at 239.561 198.06)
+    (at 286.661 149.76)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5F2DF3E1)
@@ -825,7 +901,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5F0D9550)
-    (at 257.651 182.85)
+    (at 304.751 134.55)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5F27AD0D)
@@ -861,7 +937,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5F0D953F)
-    (at 267.401 173.08)
+    (at 314.501 124.78)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5F27DCF3)
@@ -897,7 +973,7 @@
   )
 
   (module ckeys:SOT65P210X100-3N (layer F.Cu) (tedit 0) (tstamp 5F0D952E)
-    (at 193.636 204.81)
+    (at 277.236 136.41)
     (descr UMT3)
     (tags Transistor)
     (path /5F395F7E)
@@ -939,7 +1015,7 @@
   )
 
   (module Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5F0D9518)
-    (at 189.001 191.34)
+    (at 274.001 151.74)
     (descr "Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5F32644E)
@@ -1181,7 +1257,7 @@
   (module ckeys:Tiny-Touch-Pad-1.75u (layer F.Cu) (tedit 5F0E87C7) (tstamp 5F0D94CB)
     (at 202.565 122.5912)
     (path /5F5D9D01)
-    (fp_text reference PAD79 (at -5.375 0.5288) (layer F.SilkS)
+    (fp_text reference SHIFT (at -5.375 0.5288) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1198,7 +1274,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D94C6)
     (at 193.5896 122.32)
     (path /5F5D9CFB)
-    (fp_text reference PAD78 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference / (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1215,7 +1291,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F2969)
     (at 187.0696 122.3218)
     (path /5F5D9CF5)
-    (fp_text reference PAD77 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference . (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1232,7 +1308,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D94BC)
     (at 180.5696 122.3218)
     (path /5F5D9CEF)
-    (fp_text reference PAD76 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference , (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1249,7 +1325,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F1A6A)
     (at 174.0596 122.3218)
     (path /5F5D9CE9)
-    (fp_text reference PAD75 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference M (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1266,7 +1342,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D94B2)
     (at 167.5596 122.3118)
     (path /5F5D9CE3)
-    (fp_text reference PAD74 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference N (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1283,7 +1359,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D94AD)
     (at 161.0596 122.3118)
     (path /5F5D9CDD)
-    (fp_text reference PAD73 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference B (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1300,7 +1376,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D94A8)
     (at 154.5596 122.3118)
     (path /5F5D9CD7)
-    (fp_text reference PAD72 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference V (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1317,7 +1393,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D94A3)
     (at 148.0596 122.3118)
     (path /5F5D9CD1)
-    (fp_text reference PAD71 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference C (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1334,7 +1410,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D949E)
     (at 141.5596 122.3118)
     (path /5F5D9CCB)
-    (fp_text reference PAD70 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference X (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1351,7 +1427,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D9499)
     (at 135.0596 122.3118)
     (path /5F5D9CC5)
-    (fp_text reference PAD69 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference Z (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1368,7 +1444,7 @@
   (module ckeys:Tiny-Touch-Pad-2.25u (layer F.Cu) (tedit 5F0E8A98) (tstamp 5F0D9494)
     (at 124.7028 122.5658)
     (path /5F5D9CBF)
-    (fp_text reference PAD68 (at -7.1728 0.5242) (layer F.SilkS)
+    (fp_text reference SHIFT (at -7.1728 0.5242) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1385,7 +1461,7 @@
   (module ckeys:Tiny-Touch-Pad-1.25u (layer F.Cu) (tedit 5F0E8899) (tstamp 5F0D948F)
     (at 204.3728 115.9234)
     (path /5F5D9CB9)
-    (fp_text reference PAD67 (at -3.9028 0.6966) (layer F.SilkS)
+    (fp_text reference ENTER (at -3.9028 0.6966) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1402,7 +1478,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F273D)
     (at 196.8496 115.8218)
     (path /5F5D9CB3)
-    (fp_text reference PAD66 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference ' (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1419,7 +1495,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D9485)
     (at 190.3496 115.8218)
     (path /5F5D274B)
-    (fp_text reference PAD65 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference ; (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1436,7 +1512,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D9480)
     (at 183.8396 115.8218)
     (path /5F5D2745)
-    (fp_text reference PAD64 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference L (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1453,7 +1529,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D947B)
     (at 177.3396 115.8218)
     (path /5F5D273F)
-    (fp_text reference PAD63 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference K (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1470,7 +1546,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F1A28)
     (at 170.8396 115.8118)
     (path /5F5D2739)
-    (fp_text reference PAD62 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference J (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1487,7 +1563,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D9471)
     (at 164.3396 115.8118)
     (path /5F5D2733)
-    (fp_text reference PAD61 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference H (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1504,7 +1580,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D946C)
     (at 157.8296 115.8118)
     (path /5F5D272D)
-    (fp_text reference PAD60 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference G (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1521,7 +1597,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D9467)
     (at 151.3296 115.8118)
     (path /5F5D2727)
-    (fp_text reference PAD59 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference F (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1538,7 +1614,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D9462)
     (at 144.8296 115.8118)
     (path /5F5D2721)
-    (fp_text reference PAD58 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference D (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1555,7 +1631,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D945D)
     (at 138.3296 115.8018)
     (path /5F5D271B)
-    (fp_text reference PAD57 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference S (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1572,7 +1648,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D9458)
     (at 131.8296 115.8018)
     (path /5F5D2715)
-    (fp_text reference PAD56 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference A (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1589,7 +1665,7 @@
   (module ckeys:Tiny-Touch-Pad-1.75u (layer F.Cu) (tedit 5F0E87C7) (tstamp 5F0D9453)
     (at 122.905 116.0812)
     (path /5F5D270F)
-    (fp_text reference PAD55 (at -5.35 0.51) (layer F.SilkS)
+    (fp_text reference CAPS (at -5.35 0.51) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1606,7 +1682,7 @@
   (module ckeys:Tiny-Touch-Pad-1.5u (layer F.Cu) (tedit 5F0E894B) (tstamp 5F0D944E)
     (at 203.639 109.5504)
     (path /5F5D2709)
-    (fp_text reference PAD54 (at -4.8 0.57) (layer F.SilkS)
+    (fp_text reference ] (at -4.8 0.57) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1623,7 +1699,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D9449)
     (at 195.2096 109.3218)
     (path /5F5D2703)
-    (fp_text reference PAD53 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference [ (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1640,7 +1716,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F1F4C)
     (at 188.7096 109.3218)
     (path /5F5D26FD)
-    (fp_text reference PAD52 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference P (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1657,7 +1733,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F1F64)
     (at 182.2096 109.3218)
     (path /5F5D26F7)
-    (fp_text reference PAD51 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference O (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1674,7 +1750,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F1F03)
     (at 175.7096 109.3118)
     (path /5F5D26F1)
-    (fp_text reference PAD50 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference I (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1691,7 +1767,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D9435)
     (at 169.1996 109.3118)
     (path /5F5D26EB)
-    (fp_text reference PAD49 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference U (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1708,7 +1784,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D9430)
     (at 162.6996 109.3118)
     (path /5F5D26E5)
-    (fp_text reference PAD48 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference Y (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1725,7 +1801,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D942B)
     (at 156.1896 109.3118)
     (path /5F5D26DF)
-    (fp_text reference PAD47 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference T (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1742,7 +1818,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D9426)
     (at 149.6896 109.3118)
     (path /5F5D26D9)
-    (fp_text reference PAD46 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference R (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1759,7 +1835,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D9421)
     (at 143.1896 109.3118)
     (path /5F5C92B7)
-    (fp_text reference PAD45 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference E (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1776,7 +1852,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F1795)
     (at 136.6896 109.3018)
     (path /5F5C92B1)
-    (fp_text reference PAD44 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference W (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1793,7 +1869,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D9417)
     (at 130.1896 109.3018)
     (path /5F5C92AB)
-    (fp_text reference PAD43 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference Q (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1810,7 +1886,7 @@
   (module ckeys:Tiny-Touch-Pad-1.5u (layer F.Cu) (tedit 5F0E894B) (tstamp 5F0F1CD2)
     (at 122.34 109.53)
     (path /5F5C92A5)
-    (fp_text reference PAD42 (at -4.79 0.58) (layer F.SilkS)
+    (fp_text reference TAB (at -4.79 0.58) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1827,7 +1903,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D940D)
     (at 204.9796 102.8118)
     (path /5F5C929F)
-    (fp_text reference PAD41 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference \ (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1844,7 +1920,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D9408)
     (at 198.4696 102.8118)
     (path /5F5C9299)
-    (fp_text reference PAD40 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference = (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1861,7 +1937,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D9403)
     (at 191.9696 102.8118)
     (path /5F5C9293)
-    (fp_text reference PAD39 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference - (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1878,7 +1954,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D93FE)
     (at 185.4596 102.8118)
     (path /5F5C928D)
-    (fp_text reference PAD38 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference 0 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1895,7 +1971,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D93F9)
     (at 178.9496 102.8118)
     (path /5F5C9287)
-    (fp_text reference PAD37 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference 9 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1912,7 +1988,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D93F4)
     (at 172.4496 102.8118)
     (path /5F5C9281)
-    (fp_text reference PAD36 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference 8 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1929,7 +2005,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D93EF)
     (at 165.9496 102.8118)
     (path /5F5C927B)
-    (fp_text reference PAD35 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference 7 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1946,7 +2022,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D93EA)
     (at 159.4596 102.8118)
     (path /5F5C9275)
-    (fp_text reference PAD34 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference 6 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1963,7 +2039,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D93E5)
     (at 152.9596 102.8118)
     (path /5F5C926F)
-    (fp_text reference PAD33 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference 5 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1980,7 +2056,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D93E0)
     (at 146.4596 102.8118)
     (path /5F5C9269)
-    (fp_text reference PAD32 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference 4 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1997,7 +2073,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F13BC)
     (at 139.9596 102.8018)
     (path /5F5C9263)
-    (fp_text reference PAD31 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference 3 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -2014,7 +2090,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D93D6)
     (at 133.4496 102.8018)
     (path /5F5C925D)
-    (fp_text reference PAD30 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference 2 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -2031,7 +2107,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F1351)
     (at 126.94 102.8)
     (path /5F5C9257)
-    (fp_text reference PAD29 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference 1 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -2048,7 +2124,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D93CC)
     (at 120.4396 102.8018)
     (path /5F5C9251)
-    (fp_text reference PAD28 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference ` (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -2062,10 +2138,10 @@
       (net 66 B0))
   )
 
-  (module ckeys:Tiny-Touch-Pad-2.25u (layer F.Cu) (tedit 5F0E8A98) (tstamp 5F0D93C2)
-    (at 186.4928 96.5658)
+  (module ckeys:Tiny-Touch-Pad-2.25u (layer F.Cu) (tedit 5F0E8A98) (tstamp 5F0F35D6)
+    (at 186.4928 94.2658)
     (path /5F5C9245)
-    (fp_text reference PAD26 (at -5.0546 0.5842) (layer F.SilkS)
+    (fp_text reference BACKSPACE (at -7.0928 0.5342) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -2079,10 +2155,10 @@
       (net 68 C4))
   )
 
-  (module ckeys:Tiny-Touch-Pad-2.25u (layer F.Cu) (tedit 5F0E8A98) (tstamp 5F0D93B8)
-    (at 157.22 96.5658)
+  (module ckeys:Tiny-Touch-Pad-2.25u (layer F.Cu) (tedit 5F0E8A98) (tstamp 5F0F35EE)
+    (at 157.22 94.2658)
     (path /5F599455)
-    (fp_text reference PAD24 (at -5.0546 0.5842) (layer F.SilkS)
+    (fp_text reference SHIFT (at -7.12 0.5342) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -2096,10 +2172,10 @@
       (net 70 A6))
   )
 
-  (module ckeys:Tiny-Touch-Pad-1.75u (layer F.Cu) (tedit 5F0E87C7) (tstamp 5F0D939F)
-    (at 191.205 90.0912)
+  (module ckeys:Tiny-Touch-Pad-1.75u (layer F.Cu) (tedit 5F0E87C7) (tstamp 5F0F33F6)
+    (at 191.205 85.4912)
     (path /5F599431)
-    (fp_text reference RIGHT (at -4.3942 0.5588) (layer F.SilkS)
+    (fp_text reference RIGHT (at -5.305 0.5088) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -2113,10 +2189,10 @@
       (net 75 A1))
   )
 
-  (module ckeys:Tiny-Touch-Pad-1.75u (layer F.Cu) (tedit 5F0E87C7) (tstamp 5F0D939A)
-    (at 179.825 90.0912)
+  (module ckeys:Tiny-Touch-Pad-1.75u (layer F.Cu) (tedit 5F0E87C7) (tstamp 5F0F361E)
+    (at 179.825 85.4912)
     (path /5F59942B)
-    (fp_text reference DOWN (at -4.3942 0.5588) (layer F.SilkS)
+    (fp_text reference DOWN (at -5.325 0.5088) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -2130,10 +2206,10 @@
       (net 76 A0))
   )
 
-  (module ckeys:Tiny-Touch-Pad-1.75u (layer F.Cu) (tedit 5F0E87C7) (tstamp 5F0D9395)
-    (at 168.44 90.09)
+  (module ckeys:Tiny-Touch-Pad-1.75u (layer F.Cu) (tedit 5F0E87C7) (tstamp 5F0F3606)
+    (at 168.44 85.49)
     (path /5F599425)
-    (fp_text reference UP (at -4.3942 0.5588) (layer F.SilkS)
+    (fp_text reference UP (at -5.34 0.51) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -2147,8 +2223,8 @@
       (net 77 F3))
   )
 
-  (module ckeys:Tiny-Touch-Pad-2u (layer F.Cu) (tedit 5F0E87E2) (tstamp 5F0D938B)
-    (at 136.9128 90.005)
+  (module ckeys:Tiny-Touch-Pad-2u (layer F.Cu) (tedit 5F0E87E2) (tstamp 5F0F35A6)
+    (at 136.9128 85.405)
     (path /5F591A9B)
     (fp_text reference PAD15 (at -5.0546 0.635) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
@@ -2164,8 +2240,8 @@
       (net 79 C3))
   )
 
-  (module ckeys:Tiny-Touch-Pad-2u (layer F.Cu) (tedit 5F0E87E2) (tstamp 5F0EF804)
-    (at 123.8928 90.005)
+  (module ckeys:Tiny-Touch-Pad-2u (layer F.Cu) (tedit 5F0E87E2) (tstamp 5F0F343E)
+    (at 123.8928 85.405)
     (path /5F591A95)
     (fp_text reference PAD14 (at -5.0546 0.635) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
@@ -2181,8 +2257,8 @@
       (net 80 C2))
   )
 
-  (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0DC5C1)
-    (at 191.9996 83.3018)
+  (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F3456)
+    (at 191.9996 76.4018)
     (path /5F591A89)
     (fp_text reference 12 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
@@ -2198,8 +2274,8 @@
       (net 82 C0))
   )
 
-  (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0DC5CD)
-    (at 185.5096 83.3018)
+  (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F34FE)
+    (at 185.5096 76.4018)
     (path /5F591A83)
     (fp_text reference F11 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
@@ -2215,8 +2291,8 @@
       (net 83 F1))
   )
 
-  (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D9372)
-    (at 179.0096 83.2918)
+  (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F33DE)
+    (at 179.0096 76.3918)
     (path /5F58BC15)
     (fp_text reference F10 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
@@ -2232,8 +2308,8 @@
       (net 84 F0))
   )
 
-  (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D936D)
-    (at 172.4996 83.2918)
+  (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F3486)
+    (at 172.4996 76.3918)
     (path /5F58BC0F)
     (fp_text reference F9 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
@@ -2249,8 +2325,8 @@
       (net 85 F10))
   )
 
-  (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D9368)
-    (at 165.9896 83.2918)
+  (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F3516)
+    (at 165.9896 76.3918)
     (path /5F58BC09)
     (fp_text reference F8 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
@@ -2266,8 +2342,8 @@
       (net 86 F9))
   )
 
-  (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D9363)
-    (at 159.4796 83.2918)
+  (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F349E)
+    (at 159.4796 76.3918)
     (path /5F58BC03)
     (fp_text reference F7 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
@@ -2283,8 +2359,8 @@
       (net 88 C14))
   )
 
-  (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D935E)
-    (at 152.9696 83.2918)
+  (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F34E6)
+    (at 152.9696 76.3918)
     (path /5F58BBFC)
     (fp_text reference F6 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
@@ -2300,8 +2376,8 @@
       (net 89 C13))
   )
 
-  (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D9359)
-    (at 146.4696 83.2918)
+  (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F34B6)
+    (at 146.4696 76.3918)
     (path /5F57B666)
     (fp_text reference F5 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
@@ -2317,8 +2393,8 @@
       (net 90 E6))
   )
 
-  (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D9354)
-    (at 139.9596 83.3018)
+  (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F346E)
+    (at 139.9596 76.4018)
     (path /5F57B65F)
     (fp_text reference F4 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
@@ -2334,8 +2410,8 @@
       (net 91 E5))
   )
 
-  (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0D934F)
-    (at 133.4596 83.3018)
+  (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F3426)
+    (at 133.4596 76.4018)
     (path /5F578488)
     (fp_text reference F3 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
@@ -2351,8 +2427,8 @@
       (net 92 E4))
   )
 
-  (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0DE531)
-    (at 126.95 83.3018)
+  (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F34CE)
+    (at 126.95 76.4018)
     (path /5F576561)
     (fp_text reference F2 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
@@ -2369,7 +2445,7 @@
   )
 
   (module ckeys:QFP50P1600X1600X160-100N (layer F.Cu) (tedit 0) (tstamp 5F0D9340)
-    (at 184.636 161.315)
+    (at 269.636 121.715)
     (descr "LQFP100 – 14 x 14 mm 100 pin low-profile quad flat package outline")
     (tags "Integrated Circuit")
     (path /5F1AB5C4)
@@ -2605,7 +2681,7 @@
   )
 
   (module ckeys:microbit-clamp-hole-pad (layer F.Cu) (tedit 5C5E5A27) (tstamp 5F0D92C9)
-    (at 179.011 174.19)
+    (at 264.011 134.59)
     (path /5F2613A8)
     (fp_text reference H1 (at 0 0.125) (layer F.Fab)
       (effects (font (size 0.1 0.1) (thickness 0.01)))
@@ -2631,7 +2707,7 @@
   )
 
   (module ckeys:PMDU (layer F.Cu) (tedit 0) (tstamp 5F0D929C)
-    (at 184.036 179.77989)
+    (at 269.036 140.17989)
     (descr PMDU)
     (tags "Schottky Diode")
     (path /5F2747CB)
@@ -2664,7 +2740,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5F0D928E)
-    (at 257.651 180.34)
+    (at 304.751 132.04)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5F2ADA6A)
@@ -2700,7 +2776,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5F0D927D)
-    (at 243.911 195.55)
+    (at 291.011 147.25)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5F2B92AB)
@@ -2736,7 +2812,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5F0D926C)
-    (at 262.551 177.83)
+    (at 309.651 129.53)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5F2A7CB5)
@@ -2772,7 +2848,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5F0D925B)
-    (at 243.911 193.04)
+    (at 291.011 144.74)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5F2A74AB)
@@ -2808,7 +2884,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5F0D924A)
-    (at 258.201 177.83)
+    (at 305.301 129.53)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5F2A649D)
@@ -2844,7 +2920,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5F0D9239)
-    (at 239.561 195.55)
+    (at 286.661 147.25)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5F2A9311)
@@ -2880,7 +2956,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5F0D9228)
-    (at 239.561 193.04)
+    (at 286.661 144.74)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5F2A8D97)
@@ -2916,7 +2992,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5F0D9217)
-    (at 198.061 204.24)
+    (at 281.661 135.84)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5F2A8356)
@@ -2952,7 +3028,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5F0D9206)
-    (at 263.051 173.18)
+    (at 310.151 124.88)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5F2A49C9)
@@ -2988,7 +3064,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5F0D91F5)
-    (at 248.261 193.04)
+    (at 295.361 144.74)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5F283DEC)
@@ -3024,7 +3100,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5F0D91E4)
-    (at 262.001 180.34)
+    (at 309.101 132.04)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5F284FF8)
@@ -3058,5 +3134,14 @@
       (rotate (xyz 0 0 0))
     )
   )
+
+  (gr_line (start 113.9 139.5) (end 210.2 139.5) (layer Edge.Cuts) (width 0.05) (tstamp 5F0F3E2D))
+  (gr_line (start 111.9 74.5) (end 111.9 137.5) (layer Edge.Cuts) (width 0.05) (tstamp 5F0F3E2C))
+  (gr_line (start 210.2 72.5) (end 113.9 72.5) (layer Edge.Cuts) (width 0.05) (tstamp 5F0F3E2B))
+  (gr_line (start 212.2 137.5) (end 212.2 74.5) (layer Edge.Cuts) (width 0.05) (tstamp 5F0F3E2A))
+  (gr_arc (start 113.9 137.5) (end 111.9 137.5) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5F0F3E07))
+  (gr_arc (start 113.9 74.5) (end 113.9 72.5) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5F0F3E00))
+  (gr_arc (start 210.2 74.5) (end 212.2 74.5) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5F0F3DEE))
+  (gr_arc (start 210.2 137.5) (end 210.2 139.5) (angle -90) (layer Edge.Cuts) (width 0.05))
 
 )
