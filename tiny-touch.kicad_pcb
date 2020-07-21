@@ -60,7 +60,7 @@
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFF77F)
+    (visible_elements FFFFFF7F)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -304,7 +304,7 @@
   (module ckeys:Tiny-Touch-Pad-3u (layer F.Cu) (tedit 5F0E8AAD) (tstamp 5F0F3636)
     (at 153.1882 85.4812)
     (path /5F59941F)
-    (fp_text reference SPACE (at -9.5482 0.4988) (layer F.SilkS)
+    (fp_text reference PAD16 (at -9.5482 0.4988) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -321,7 +321,7 @@
   (module ckeys:Tiny-Touch-Pad-2u (layer F.Cu) (tedit 5F0E87E2) (tstamp 5F0F358E)
     (at 201.9328 76.595)
     (path /5F591A8F)
-    (fp_text reference PAD13 (at -5.0546 0.635) (layer F.SilkS) hide
+    (fp_text reference PAD13 (at -5.0546 0.635) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -338,7 +338,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F364E)
     (at 120.4396 76.4018)
     (path /5F559231)
-    (fp_text reference F1 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference PAD1 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -423,7 +423,7 @@
   (module ckeys:Tiny-Touch-Pad-1.75u (layer F.Cu) (tedit 5F0E87C7) (tstamp 5F0F352E)
     (at 202.565 85.4912)
     (path /5F599437)
-    (fp_text reference LEFT (at -4.3942 0.5588) (layer F.SilkS)
+    (fp_text reference PAD20 (at -4.3942 0.5588) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -1079,7 +1079,7 @@
   (module ckeys:Tiny-Touch-Pad-3u (layer F.Cu) (tedit 5F0E8AAD) (tstamp 5F0D94E9)
     (at 159.6582 129.0912)
     (path /5F62F460)
-    (fp_text reference SPACE (at -9.5782 0.4988) (layer F.SilkS)
+    (fp_text reference PAD85 (at -9.5782 0.4988) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -2099,7 +2099,7 @@
   (module ckeys:Tiny-Touch-Pad-1.75u (layer F.Cu) (tedit 5F0E87C7) (tstamp 5F0F33F6)
     (at 191.205 85.4912)
     (path /5F599431)
-    (fp_text reference RIGHT (at -4.3942 0.5588) (layer F.SilkS)
+    (fp_text reference PAD19 (at -4.3942 0.5588) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -2116,7 +2116,7 @@
   (module ckeys:Tiny-Touch-Pad-1.75u (layer F.Cu) (tedit 5F0E87C7) (tstamp 5F0F361E)
     (at 179.825 85.4912)
     (path /5F59942B)
-    (fp_text reference DOWN (at -4.3942 0.5588) (layer F.SilkS)
+    (fp_text reference PAD18 (at -4.3942 0.5588) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -2133,7 +2133,7 @@
   (module ckeys:Tiny-Touch-Pad-1.75u (layer F.Cu) (tedit 5F0E87C7) (tstamp 5F0F3606)
     (at 168.44 85.49)
     (path /5F599425)
-    (fp_text reference UP (at -4.3942 0.5588) (layer F.SilkS)
+    (fp_text reference PAD17 (at -4.3942 0.5588) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -2150,7 +2150,7 @@
   (module ckeys:Tiny-Touch-Pad-2u (layer F.Cu) (tedit 5F0E87E2) (tstamp 5F0F35A6)
     (at 136.9128 85.405)
     (path /5F591A9B)
-    (fp_text reference PAD15 (at -5.0546 0.635) (layer F.SilkS) hide
+    (fp_text reference PAD15 (at -5.0546 0.635) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -2167,7 +2167,7 @@
   (module ckeys:Tiny-Touch-Pad-2u (layer F.Cu) (tedit 5F0E87E2) (tstamp 5F0F343E)
     (at 123.8928 85.405)
     (path /5F591A95)
-    (fp_text reference PAD14 (at -5.0546 0.635) (layer F.SilkS) hide
+    (fp_text reference PAD14 (at -5.0546 0.635) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -2184,7 +2184,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F3456)
     (at 191.9996 76.4018)
     (path /5F591A89)
-    (fp_text reference 12 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference PAD12 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -2201,7 +2201,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F34FE)
     (at 185.5096 76.4018)
     (path /5F591A83)
-    (fp_text reference F11 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference PAD11 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -2218,7 +2218,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F33DE)
     (at 179.0096 76.3918)
     (path /5F58BC15)
-    (fp_text reference F10 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference PAD10 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -2235,7 +2235,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F3486)
     (at 172.4996 76.3918)
     (path /5F58BC0F)
-    (fp_text reference F9 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference PAD9 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -2252,7 +2252,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F3516)
     (at 165.9896 76.3918)
     (path /5F58BC09)
-    (fp_text reference F8 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference PAD8 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -2269,7 +2269,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F349E)
     (at 159.4796 76.3918)
     (path /5F58BC03)
-    (fp_text reference F7 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference PAD7 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -2286,7 +2286,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F34E6)
     (at 152.9696 76.3918)
     (path /5F58BBFC)
-    (fp_text reference F6 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference PAD6 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -2303,7 +2303,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F34B6)
     (at 146.4696 76.3918)
     (path /5F57B666)
-    (fp_text reference F5 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference PAD5 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -2320,7 +2320,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F346E)
     (at 139.9596 76.4018)
     (path /5F57B65F)
-    (fp_text reference F4 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference PAD4 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -2337,7 +2337,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F3426)
     (at 133.4596 76.4018)
     (path /5F578488)
-    (fp_text reference F3 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference PAD3 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
@@ -2354,7 +2354,7 @@
   (module ckeys:Tiny-Touch-Pad (layer F.Cu) (tedit 5F0D451A) (tstamp 5F0F34CE)
     (at 126.95 76.4018)
     (path /5F576561)
-    (fp_text reference F2 (at -2.8448 0.8382) (layer F.SilkS)
+    (fp_text reference PAD2 (at -2.8448 0.8382) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (fp_text value Tiny-Touch-Pad (at 0 -0.5) (layer F.Fab) hide
