@@ -637,8 +637,6 @@ F 3 "" H 3600 6550 50  0001 C CNN
 	1    3600 6550
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3600 6650 2    50   Input ~ 0
-VBUS
 NoConn ~ 3600 6750
 NoConn ~ 3600 7350
 $Comp
@@ -907,10 +905,6 @@ F9
 NoConn ~ 2350 3900
 Text GLabel 2550 3900 3    50   Input ~ 0
 F10
-Text GLabel 2650 3900 3    50   Input ~ 0
-F0
-Text GLabel 2750 3900 3    50   Input ~ 0
-F1
 Text GLabel 2950 3900 3    50   Input ~ 0
 C0
 Text GLabel 3050 3900 3    50   Input ~ 0
@@ -1009,8 +1003,6 @@ Text GLabel 1750 900  1    50   Input ~ 0
 F6
 Text GLabel 3950 900  1    50   Input ~ 0
 B12
-Text GLabel 850  1200 0    50   Input ~ 0
-A14
 Text GLabel 850  1500 0    50   Input ~ 0
 C11
 Text GLabel 850  1400 0    50   Input ~ 0
@@ -1070,9 +1062,7 @@ F9
 Text GLabel 9000 1100 2    50   Input ~ 0
 F10
 Text GLabel 9900 1100 2    50   Input ~ 0
-F0
-Text GLabel 6300 1350 2    50   Input ~ 0
-F1
+A14
 Text GLabel 8100 1350 2    50   Input ~ 0
 C1
 Text GLabel 9000 1350 2    50   Input ~ 0
@@ -2236,4 +2226,61 @@ Text GLabel 7200 5100 2    50   Input ~ 0
 B9
 Text GLabel 9000 5100 2    50   Input ~ 0
 B8
+Text GLabel 8200 5900 2    50   Input ~ 0
+A15
+Text GLabel 6300 1350 2    50   Input ~ 0
+F1
+Text GLabel 2750 3900 3    50   Input ~ 0
+F1
+NoConn ~ 2650 3900
+Text GLabel 850  1200 0    50   Input ~ 0
+A14
+Text GLabel 3600 6650 2    50   Input ~ 0
+VBUS
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5F24BC94
+P 6000 5900
+F 0 "#FLG0103" H 6000 5975 50  0001 C CNN
+F 1 "PWR_FLAG" H 6000 6073 50  0000 C CNN
+F 2 "" H 6000 5900 50  0001 C CNN
+F 3 "~" H 6000 5900 50  0001 C CNN
+	1    6000 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0130
+U 1 1 5F24C2D8
+P 6000 5900
+F 0 "#PWR0130" H 6000 5650 50  0001 C CNN
+F 1 "GND" V 6005 5772 50  0000 R CNN
+F 2 "" H 6000 5900 50  0001 C CNN
+F 3 "" H 6000 5900 50  0001 C CNN
+	1    6000 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0131
+U 1 1 5F24CB0B
+P 6400 6000
+F 0 "#PWR0131" H 6400 5750 50  0001 C CNN
+F 1 "GNDREF" V 6405 5872 50  0001 R CNN
+F 2 "" H 6400 6000 50  0001 C CNN
+F 3 "" H 6400 6000 50  0001 C CNN
+	1    6400 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5F24DC68
+P 6400 5900
+F 0 "#FLG0104" H 6400 5975 50  0001 C CNN
+F 1 "PWR_FLAG" H 6400 6073 50  0000 C CNN
+F 2 "" H 6400 5900 50  0001 C CNN
+F 3 "~" H 6400 5900 50  0001 C CNN
+	1    6400 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 5900 6400 6000
 $EndSCHEMATC

@@ -529,7 +529,7 @@ U 1 1 5F2BF5BB
 P 950 6700
 F 0 "SW1" H 950 6985 50  0000 C CNN
 F 1 "SW_Push" H 950 6894 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 950 6900 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 950 6900 50  0001 C CNN
 F 3 "~" H 950 6900 50  0001 C CNN
 	1    950  6700
 	1    0    0    -1  
@@ -907,10 +907,6 @@ F9
 NoConn ~ 2350 3900
 Text GLabel 2550 3900 3    50   Input ~ 0
 F10
-Text GLabel 2650 3900 3    50   Input ~ 0
-F0
-Text GLabel 2750 3900 3    50   Input ~ 0
-F1
 Text GLabel 2950 3900 3    50   Input ~ 0
 C0
 Text GLabel 3050 3900 3    50   Input ~ 0
@@ -1009,8 +1005,6 @@ Text GLabel 1750 900  1    50   Input ~ 0
 F6
 Text GLabel 3950 900  1    50   Input ~ 0
 B12
-Text GLabel 850  1200 0    50   Input ~ 0
-A14
 Text GLabel 850  1500 0    50   Input ~ 0
 C11
 Text GLabel 850  1400 0    50   Input ~ 0
@@ -1070,9 +1064,7 @@ F9
 Text GLabel 9000 1100 2    50   Input ~ 0
 F10
 Text GLabel 9900 1100 2    50   Input ~ 0
-F0
-Text GLabel 6300 1350 2    50   Input ~ 0
-F1
+A14
 Text GLabel 8100 1350 2    50   Input ~ 0
 C1
 Text GLabel 9000 1350 2    50   Input ~ 0
@@ -2236,4 +2228,13 @@ Text GLabel 7200 5100 2    50   Input ~ 0
 B9
 Text GLabel 9000 5100 2    50   Input ~ 0
 B8
+Text GLabel 8200 5900 2    50   Input ~ 0
+A15
+Text GLabel 6300 1350 2    50   Input ~ 0
+F1
+Text GLabel 2750 3900 3    50   Input ~ 0
+F1
+NoConn ~ 2650 3900
+Text GLabel 850  1200 0    50   Input ~ 0
+A14
 $EndSCHEMATC
